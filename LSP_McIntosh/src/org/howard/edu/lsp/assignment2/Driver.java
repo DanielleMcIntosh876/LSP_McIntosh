@@ -1,7 +1,7 @@
 package org.howard.edu.lsp.assignment2;
 
 //from homework instructions
-public static void main(String[] args)
+
 public class Driver {
 	public static void main() {
 		Combinations comb = new Combinations();
