@@ -19,6 +19,7 @@ public class IntegerSetTest {
 		assertEquals(3, output_length);
 	}
 	
+	
 	@Test
 	@DisplayName("Testing the clear method")
 	public void testClear() {
