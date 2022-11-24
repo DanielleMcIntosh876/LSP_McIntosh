@@ -14,10 +14,10 @@ import java.util.*;
  * FindAverageDropTwoLowest Class
  */
 public class FindAverageDropTwoLowest implements AverageStrategy{
-	@Override
 	/*
 	 * Compute throws an EmptyListException if the set is either empty or too short.
 	 */
+	@Override
 	public int compute(List<Integer> grades) throws EmptyListException {
 		if (grades.size() == 0) {
 			throw new EmptyListException("The set is empty. Operation cannot be performed.");
